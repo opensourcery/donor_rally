@@ -1,5 +1,3 @@
-; $Id$
-api = 2
 core = "7.x"
 
 ; Contrib projects
@@ -23,13 +21,7 @@ projects[forward][subdir] = "contrib"
 projects[forward][version] = "1.0-rc3"
 
 projects[og][subdir] = "contrib"
-projects[og][download][type] = "git"
-projects[og][download][branch] = "7.x-1.x"
-
-projects[purl][subdir] = "contrib"
-projects[purl][type] = "module"
-projects[purl][download][type] = "git"
-projects[purl][download][branch] = "7.x-1.x"
+projects[og][version] = "1.1-rc2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta2"

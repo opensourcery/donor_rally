@@ -18,6 +18,11 @@ projects[service_links][subdir] = "contrib"
 projects[service_links][download][type] = "git"
 projects[service_links][download][branch] = "7.x-2.x"
 
+projects[purl][subdir] = "contrib"
+projects[purl][type] = "module"
+projects[purl][download][type] = "git"
+projects[purl][download][branch] = "7.x-1.x"
+
 projects[spaces][subdir] = "contrib"
 projects[spaces][type] = "module"
 projects[spaces][download][type] = "git"
