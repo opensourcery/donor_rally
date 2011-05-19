@@ -40,7 +40,7 @@ projects[views_or][download][revision] = "376535184fbde0ff810a19aa48ab0369f0241b
 projects[simple_payments][subdir] = "contrib"
 projects[simple_payments][type] = "module"
 projects[simple_payments][download][type] = "git"
-projects[simple_payments][download][revision] = "575c67774a78ea5ce67cdad1a0c39bb6b22ed050"
+projects[simple_payments][download][revision] = "df0e807"
 ; http://drupal.org/node/869142#comment-3267326
 projects[simple_payments][patch][] = "http://drupal.org/files/issues/simple_payments-869142-views-support.patch"
 
