@@ -18,7 +18,11 @@ projects[salsa_api][download][type] = "git"
 projects[salsa_api][download][revision] = "b21f9a3c8c32596c800349cfcf44afe58e7dff8d"
 
 projects[service_links][subdir] = "contrib"
-projects[service_links][version] = "2.0"
+projects[service_links][type] = "module"
+projects[service_links][download][type] = "git"
+projects[service_links][download][revision] = "aee82ac"
+; http://drupal.org/node/1161974#comment-4487754
+projects[service_links][patch][] = "http://drupal.org/files/issues/twitter-fix-1161974.patch"
 
 ; This version works with php 5.3
 projects[vertical_tabs][subdir] = "contrib"
