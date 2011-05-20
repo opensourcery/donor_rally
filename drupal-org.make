@@ -23,9 +23,6 @@ projects[forward][version] = "1.0-rc3"
 projects[og][subdir] = "contrib"
 projects[og][version] = "1.1-rc2"
 
-projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta2"
-
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta1"
 
