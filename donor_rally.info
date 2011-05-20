@@ -29,4 +29,8 @@ dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = views
 
+; Donor Rally Features
+dependencies[] = dr_base
+dependencies[] = dr_campaign
+
 files[] = donor_rally.profile
