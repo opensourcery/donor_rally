@@ -3,8 +3,8 @@ description = Install the Donor Rally distribution.
 version = VERSION
 core = 7.x
 ; Core
+dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dashboard
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
