@@ -32,10 +32,8 @@ projects[spaces][download][branch] = "7.x-1.x"
 ; projects[spaces][patch][] = "http://drupal.org/files/issues/spaces.976324-08.patch"
 ; http://drupal.org/node/1157154#comment-4467380
 projects[spaces][patch][] = "http://drupal.org/files/issues/spaces.1157154-01.patch"
-; http://drupal.org/node/1167884#comment-4522046
-projects[spaces][patch][] = "http://drupal.org/files/issues/spaces-nodeapi-1167884-03.patch"
-; http://drupal.org/node/1167928#comment-4512226
-projects[spaces][patch][] = "http://drupal.org/files/issues/spaces.1167928-01.patch"
+; http://drupal.org/node/1167884#comment-4522222
+projects[spaces][patch][] = "http://drupal.org/files/issues/spaces-nodeapi-1167884-06.patch"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][type] = "module"
