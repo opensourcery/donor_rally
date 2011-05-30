@@ -22,6 +22,8 @@ projects[purl][subdir] = "contrib"
 projects[purl][type] = "module"
 projects[purl][download][type] = "git"
 projects[purl][download][branch] = "7.x-1.x"
+; http://drupal.org/node/1070222#comment-4534524
+projects[purl][patch][] = "http://drupal.org/files/issues/port-purl-to-drupal7-1070222-48-D7.patch"
 
 projects[spaces][subdir] = "contrib"
 projects[spaces][type] = "module"
