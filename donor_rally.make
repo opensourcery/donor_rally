@@ -36,6 +36,8 @@ projects[spaces][download][branch] = "7.x-1.x"
 projects[spaces][patch][] = "http://drupal.org/files/issues/spaces.1157154-01.patch"
 ; http://drupal.org/node/1167884#comment-4522292
 projects[spaces][patch][] = "http://drupal.org/files/issues/spaces-nodeapi-1167884-07.patch"
+; http://drupal.org/node/1171430#comment-4527256
+projects[spaces][patch][] = "http://drupal.org/files/issues/spaces.1171430-01.patch"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][type] = "module"
