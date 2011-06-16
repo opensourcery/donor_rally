@@ -11,7 +11,7 @@ includes[drupal-org] = "drupal-org.make"
 ; Donor Rally features
 projects[donor_rally_features][type] = "module"
 projects[donor_rally_features][download][type] = "git"
-projects[donor_rally_features][download][branch] = "6.x-1.x"
+projects[donor_rally_features][download][tag] = "6.x-1.0-alpha2"
 
 ; Contrib
 projects[salsa_api][subdir] = "contrib"
