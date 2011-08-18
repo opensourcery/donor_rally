@@ -46,9 +46,6 @@ projects[strongarm][download][branch] = "7.x-2.x"
 ; http://drupal.org/node/1062452#comment-4327034
 projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_conf-needs-to-be-called-sooner-1062452--3.patch"
 
-projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-beta3"
-
 ; Themes
 projects[huddle][type] = "theme"
 projects[huddle][download][type] = "git"
