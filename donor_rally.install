@@ -95,10 +95,6 @@ function donor_rally_install() {
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
 
-  // Allow visitor account creation with administrative approval.
-  // TODO change this
-  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
-
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', $filtered_html_permission));
@@ -120,13 +116,4 @@ function donor_rally_install() {
 
   // Update the menu router information.
   menu_rebuild();
-
-  // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'seven')
-    ->execute();
-  variable_set('admin_theme', 'seven');
-  variable_set('node_admin_theme', '1');
 }

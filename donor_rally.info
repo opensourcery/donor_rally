@@ -33,3 +33,14 @@ dependencies[] = dr_base
 dependencies[] = dr_campaign
 
 files[] = donor_rally.profile
+
+; Profiler-dependent values below here.
+
+; Variables.
+
+; Only administrators can create accounts (will be changeable on a per-space basis).
+variables[user_register] = 0
+
+; Admin theme
+variables[admin_theme] = "rubik"
+variables[node_admin_theme] = 1

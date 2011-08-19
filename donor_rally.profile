@@ -1,5 +1,11 @@
 <?php
 /**
+ * User profiler library.
+ */
+!function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
+profiler_v2('donor_rally');
+
+/**
  * Implementation of hook_form_FORM_ID_alter().
  *
  * Allows the profile to alter the site-configuration form. This is

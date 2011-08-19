@@ -3,5 +3,6 @@
 *.sw?
 .vimrc
 *~
+libraries
 modules
 themes
