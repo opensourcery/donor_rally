@@ -49,3 +49,7 @@ projects[devel][version] = "1.2"
 projects[tao][version] = "3.0-beta3"
 
 projects[rubik][version] = "4.0-beta6"
+
+; Libraries
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
